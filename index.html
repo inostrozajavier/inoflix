@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/0568aefeb4.js" crossorigin="anonymous"></script>
+    <title>Netflix</title>
+</head>
+<body>
+    <div class="navbar">
+        <div class="navbar__logo">
+            <img src="assets/img/inoflix.png" alt="logo" >
+        </div>
+        <div class="navbar__browse"><ul>
+            <li class="nav__bar-selected"><a href="#">Inicio</a></li>
+            <li><a href="#">Series TV</a></li>
+            <li><a href="#">Peliculas</a></li>
+            <li><a href="#">Mas recientes</a></li>
+            <li><a href="#milista">Mi Lista</a></li>
+            </ul></div>
+            <div class="navbar__menu">
+                <div class="navbar__menu__search">
+                    <div class="search__list__container" id="searchListContainer">
+                      <ul id="searchList"></ul>
+                    </div>
+                    <input type="text" id="searchInput" >
+                    <img class="icons__icon" src="assets/img/search-icon.png" alt="Search Icon" id="searchIcon" onclick="clickSearchIcon()" >
+                  </div>
+            <img class="icons__icon" src="assets/img/gift-icon.png" alt="Gift Icon">
+            <img class="icons__icon" src="assets/img/bell-icon.png" alt="Bell Icon">
+            <img class="icons__icon not-inverted" src="assets/img/user-icon.png" alt="User Icon">            
+        </div>
+        <div class=navbar__menu__mobile>
+            <img class="icons__icon not-inverted" src="assets/img/user-icon.png" alt="User Icon">
+            <div class="navbar__menu__mobile__list">
+            <img class="icons__icon" src="assets/img/search-icon.png" alt="Search Icon">
+            <img class="icons__icon" src="assets/img/gift-icon.png" alt="Gift Icon">
+            <img class="icons__icon" src="assets/img/bell-icon.png" alt="bell icon">
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="header">
+        <video src="assets/video/vid.mp4" muted autoplay></video>
+        <div class="header__information">
+            <div class="header__information__type">
+                <img src="assets/img/letrachica.png" alt="logo n">
+                <h2>Serie</h2>
+            </div>
+            <div class="header__inofrmation__text">
+                <h1>Bienvenidos a Inoflix</h1>
+            </div>
+            <div class="header__information__actions">
+                <button><img src="assets/img/play-icon.png" alt="play icon" clas="icons_icons not_inverted">Reproducir</button>
+                <button><img src="assets/img/info-icon.png" alt="info icon" class="button2">Más Inoformación</button>
+            </div>
+    </div>
+    </div>
+    <div class="main">
+        <div class="main__section" id="milista">
+          <h1>Mi lista</h1>
+          <div class="main__section__carousel">
+            <div class="main__section__carousel__card">
+              <img src="assets/img/sinner.jpg" alt="Sinner">
+              <div class="carousel__card__text">
+                <p>The sinner</p>
+              </div>
+            </div>
+            <div class="main__section__carousel__card">
+              <img src="assets/img/venom.jpg" alt="Sinner">
+              <div class="carousel__card__text">
+                <p>Venom</p>
+              </div>
+            </div>
+            <div class="main__section__carousel__card">
+              <img src="assets/img/irlandes.jpg" alt="Sinner">
+              <div class="carousel__card__text">
+                <p>El irlandes</p>
+              </div>
+            </div>
+            <div class="main__section__carousel__card">
+              <img src="assets/img/suits.jpg" alt="Sinner">
+              <div class="carousel__card__text">
+                <p>Suits</p>
+              </div>
+            </div>
+            <div class="main__section__carousel__card">
+              <img src="assets/img/maldicion.jpg" alt="Sinner">
+              <div class="carousel__card__text">
+                <p>LA MADICION DE BLY MANOR</p>
+              </div>
+            </div>
+            <div class="main__section__carousel__card">
+              <img src="assets/img/frontera.jpg" alt="Sinner">
+              <div class="carousel__card__text">
+                <p>Triple frontera</p>
+              </div>
+            </div>
+            <div class="main__section__carousel__card">
+              <img src="assets/img/sinner.jpg" alt="Sinner">
+              <div class="carousel__card__text">
+                <p>The sinner</p>
+              </div>
+            </div>
+            <div class="main__section__carousel__card">
+              <img src="assets/img/defenders.jpg" alt="Sinner">
+              <div class="carousel__card__text">
+                <p>The defenders</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <div class="footer__socialmedia">
+            <img src="assets/img/facebook.png" alt="Facebook" class="icons__icon">
+            <img src="assets/img/instagram.png" alt="Instagram" class="icons__icon">
+            <img src="assets/img/twitter.png" alt="Twitter" class="icons__icon">
+            <img src="assets/img/youtube-play.png" alt="Youtube" class="icons__icon">
+        </div>
+        <div class="footer__info">
+            <ul>
+                <li>Audio y subtitulos</li>
+                <li>Descripcion de audio</li>
+                <li>Centro de ayuda</li>
+                <li>Tarjetas regalo</li>
+                <li>Zonas de prensa</li>
+                <li>Inversores</li>
+                <li>Empleo</li>
+                <li>Términos de uso</li>
+                <li>Privacidad</li>
+                <li>Avisos legales</li>
+                <li>Preferencia de cookies</li>
+                <li>Información corporativa</li>
+                <li>Contáctanos</li>
+            </ul>
+        </div>       
+        <div class="footer__copyright">
+            <p>© 1997-2022 Inoflix, Inc. {Datos Sensibles}</p>
+        </div>
+      </footer>
+      <script src="js/index.js"></script>
+    </body>
+</html>
