@@ -13,7 +13,7 @@ Javier Inostroza
 ## Installation
 Doesn't require installation
 
-## Contratación
+## Hire me
 If you want contact me, you can send me a [E-mail](mailto:contacto@inostrozajavier.com "E-mail")
 
 ## License
